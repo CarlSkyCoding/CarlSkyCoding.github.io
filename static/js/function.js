@@ -1,7 +1,6 @@
 function Appear(Name) {
     Array.from(document.querySelectorAll(".Page")).forEach(object => {
         if (object.id != "Loading") {
-            object.style.animation = "disappear .3s";
             setTimeout(() => {
                 object.style.display = "none";
             }, 300);
