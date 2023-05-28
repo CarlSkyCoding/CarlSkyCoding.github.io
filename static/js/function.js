@@ -1,9 +1,7 @@
 function Appear(Name) {
     Array.from(document.querySelectorAll(".Page")).forEach(object => {
         if (object.id != "Loading") {
-            setTimeout(() => {
-                object.style.display = "none";
-            }, 300);
+            object.style.display = "none";
         }
     });
     document.getElementById("Loading").style.display = "block";
