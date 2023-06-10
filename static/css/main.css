@@ -179,6 +179,7 @@ p {
     .Head {
         margin-top: 30px;
         max-width: 150px !important;
+        border-radius: 20px;
     }
 
     .Button {
